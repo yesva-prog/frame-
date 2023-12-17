@@ -1,0 +1,533 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",Arial,sans-serif;
+    
+}
+
+.parent-wrapper{
+    background: black;
+   
+    position:relative;
+    color:whitesmoke;
+    filter: brightness(50%);
+    width: 100%;
+
+   
+}
+.parent-wrapper img{
+    width: 100vw;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    justify-content: space-between;
+    color: #fff;
+}
+.brand{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.ul-icons ul li{
+    display:inline-block;
+    margin-right: 15px;
+}
+.ul-icons ul li:hover{
+    color:dimgray;
+}
+
+.content{
+         position: absolute;
+         z-index:1;
+         top:260px;
+         left:340px;
+         font-size: 20px;
+         color:white;
+         margin-top: 60px;
+}
+.content-button{
+    text-align: center;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+
+
+.button{
+    font-size: 10px;
+    height:60px;
+    width:180px;
+    background: transparent;
+    color:white;
+    border-color:#cec2ba;
+   
+    margin-left:10px;
+}
+.button:hover{
+    background: rgba(255,255,255,.3);
+}
+
+
+.service-spec{
+      color:#1b58a5;
+      font-size:12px;
+      margin:140px 60px;
+      display:flex;
+      justify-content: space-around;
+      line-height: 1.9;
+}
+.spec-1 > p{
+    color:#aaacaf;
+    font-size: larger;
+}
+
+.line{
+    height:2px;
+    width:10%;
+    color:#1a57a5;
+    background-color: #1a57a5;
+}
+
+.features{
+    background-color: #d6e6f2;
+   
+    font-size:15px;
+    line-height:1.9;
+}
+
+.features > h1{
+    color:#1b58a5;
+}
+.features > div{
+    color:#8699b3;
+}
+.Benifits-wrapper{
+    display:flex;
+    line-height: 1.6;
+}
+.Benifits-wrapper > h1{
+ 
+    color:#1b58a5;
+}
+ 
+.Benifits-wrapper > div{
+    color:#7c7e8c;
+}
+
+.Howframe{
+    padding-top:134px;
+    display:flex;
+}
+
+.Howframe > div{
+    color:#7c7a8b;
+}
+.Allin{
+    padding-top:135px;
+    display:flex;
+}
+
+.Allin >div{
+    color:#7c7a8b;
+}
+
+.choose-wrapper{
+    margin-top:150px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.choose-wrapper  > div{
+          color:#cec2ba;
+}
+
+.get-button{
+          width:161px;
+          height:41px;
+          background-color: #10120e;
+          color:white;
+          margin:140px 60px;
+
+}
+.get-button:hover{
+    background: #262626;
+}
+
+.price-dollar > P{
+           color:black;
+}
+
+.head{
+    letter-spacing: 4px;
+}
+
+.price{
+    color:#1a57a5;
+  
+}
+
+.side{
+    color:#c3c4cb;
+    
+}
+
+.price-dollar{
+    margin:70px;
+    display:flex;
+    height:502px;
+    justify-content:space-around;
+   
+    
+}
+
+.price-dollar > div{
+     padding:20px ;
+     margin:40px ; 
+     height:500px;
+     border:1px solid #ededed;
+}
+
+.price-1 > p{
+      font-size: 13px;
+      line-height: 2.5;
+}
+.price-2 > p{
+    font-size: 13px;
+    line-height: 2.5;
+}
+.price-3 > p{
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+.price-2{
+    box-shadow: 5px 5px 10px 10px #f3f3f3;
+}
+.image-1{
+    border-radius: 50%;
+}
+
+.checked{
+    color:orange;
+    padding:2px;
+}
+.frames-wrapper{
+    background-color:#d6e6f2;
+    height:1468px;
+}
+.reviews-wrapper{
+     margin:114px 20px 0px 20px;
+     display:flex;
+     justify-content: center;
+}
+.reviews-wrapper > div{
+    padding:40px;
+    margin:0px 10px; 
+    width:357px;
+    height:421px;
+    border:2px solid #ffffff;
+    background-color: #ffffff;
+    color:black;
+    font-size: 13px;
+    line-height: 2;
+}
+.reviews-wrapper > div:hover{
+    box-shadow: 1px 1px 1px 1px #f3f3f3 ;
+}
+.reviews-wrapper2 > div:hover{
+    box-shadow: 1px 1px 1px 1px #f3f3f3 ;
+}
+.author{
+    padding-top:40px;
+}
+.reviews-wrapper2{
+    margin:0px 20px;
+    display:flex;
+    justify-content: center;
+}
+.reviews-wrapper2 > div{
+   padding:40px;
+   margin:0px 10px; 
+   width:357px;
+   height:421px;
+   border:2px solid #ffffff;
+   background-color: #ffffff;
+   color:black;
+   font-size: 13px;
+   line-height: 2;
+}
+.author{
+   padding-top:40px;
+}
+
+.reviewer-3{
+    height:100px;
+}
+.get-it-button{
+    width:161px;
+    height:41px;
+    color:white;
+     margin:30px 530px;
+}
+.get-it-button:hover{
+    background-color: #bd9a81;
+}
+.lap-image{
+    margin:53px 200px;
+}
+.about-lap{
+    display:flex;
+    justify-content: center;
+    padding:0px 10px;
+}
+.about-1 > p{
+    color:#bd9a81;
+    font-size: 12px;
+    line-height: 2;
+    margin:0px 10px;
+}
+
+.joinwith-wrapper{
+    height:324px;
+    background-color: #1a57a5;
+
+}
+
+.join-content{
+    padding-top:69px;
+}
+
+.name{
+    width:100%;
+}
+
+input[type="text"]{
+    width:500px;
+    height:44px;
+    border: 2px solid #ececec; 
+}
+input[type="mail"]{
+    width:500px;
+    height:44px;
+    border: 2px solid #ececec; 
+}
+input[type="number"]{
+    width:500px;
+    height:44px;
+    border: 2px solid #ececec; 
+}
+
+.send-button{
+    background-color: #1a57a5;
+    color:white;
+    border:none;
+    width:188px;
+    height:44px;
+}
+.send-button:hover{
+     background-color: #103463;
+}
+.form{
+    margin-right:5px;
+    padding:30px;
+}
+
+.address > h3{
+    color:#c5c9c5;
+}
+.address > p{
+    color:#7c7b93;
+}
+
+.details-wrapper{
+    background-color: #d6e6f2;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.details-wrapper > div{
+       margin:30px 20px;
+}
+
+.form{
+    box-shadow:3px 3px 4px 4px#ccdbe7;
+}
+
+.last{
+    background: #1955a1;
+    
+
+    height:300px;
+   
+}
+.foots > p{
+    color:white;
+}
+
+    .span{
+        color: #8699b3;
+        justify-content: center;
+        display: flex;
+       }
+
+.last >span{
+    color:#769ac9;
+    
+    letter-spacing:40px;
+}
+.span:hover{
+    color:whitesmoke;
+}
+.last > span:hover{
+    color:white;
+}
+/* @media(max-width:600px)and (min-width:600px){
+  .parent-wrapper{
+    width:100%;
+  }
+} */
+@media screen and (max-width: 600px) {
+    .parent-wrapper{
+        width:100%;
+  }
+  .brand{
+    padding-left:-150px;
+  }
+  .ul-icons ul li{
+    display:inline-block;
+  }
+  .content{
+
+  }
+
+}
+  
+@media(max-width:700px){
+    .service-spec{
+        display:flex;
+        flex-direction: column;
+    }
+    .Benifits-wrapper{
+       display: flex;
+       flex-direction: column;
+    }
+    .Benifits-wrapper img{
+       width:500px;
+       height:400px;
+       padding:20px;
+       margin-left: 30px;
+    }
+    .Howframe{
+        
+       display:flex;
+       flex-direction: column;
+    }
+    .Howframe img{
+       width:500px;
+       height:400px;
+       padding:20px;
+       margin-left: 30px;
+    }
+    .Allin{
+       display:flex;
+       flex-direction: column;
+      
+    }
+    .Allin img{
+       width:500px;
+       height:400px;
+       padding:20px;
+       margin-left: 30px;
+    }
+    .join-content{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .choose-wrapper{
+       display:flex;
+       flex-direction: column;
+    }
+    .details-wrapper{
+        display:flex;
+        flex-direction: column;
+    }
+    input[type="text"]{
+        width:280px;
+        height:44px;
+        border: 2px solid #ececec; 
+    }
+    input[type="mail"]{
+        width:280px;
+        height:44px;
+        border: 2px solid #ececec; 
+    }
+    input[type="number"]{
+        width:280px;
+        height:44px;
+        border: 2px solid #ececec; 
+    }
+    textarea{
+        width:93%;
+    } 
+    .get-it-button{
+       margin-left:220px;
+    }  
+    .lap-image{
+        display: flex;
+        justify-content: center;
+         
+    }
+    .about-lap{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    .content{
+        margin-top: 40px;
+        flex-wrap:nowrap ;
+        left:20px;
+        text-align: center;
+        height:200px;
+        font-size: 15px;
+    }
+    .nav{
+        margin-top: 40px;
+        padding:0px;
+        margin:0px;
+        color:white;
+    }
+    .brand{
+      
+         font-size: 13px;
+         float:left;
+    }
+    .ul-icons{
+        font-size: 12px;
+    }
+   .benifits-1{
+        width:100%;
+   }
+   .join-content{
+    font-size: 12px;
+   }
+   .span{
+    color: #8699b3;
+    justify-content: center;
+    display: flex;
+   }
+   
+
+   .price-3{
+      margin-bottom:200px;
+   }
+  
+}
